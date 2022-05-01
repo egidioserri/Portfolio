@@ -1,2 +1,12 @@
-# portfolio
-My portfolio used in HTML and CSS training.
+
+##  Em criaçao
+
+ - [x] Wireframe
+ - [x] Template (Figma)
+ - [ ] HTML **(Em andamento)**
+ - [ ] CSS **(Em andamento)**
+ - [ ] Javascript
+ - [ ] Animações
+ - [ ] Publicação
+
+
