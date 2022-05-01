@@ -1,5 +1,10 @@
 
-##  Em criaçao
+##  Olá!👋🏻
+## Meu nome é Egidio Serri
+
+---
+
+Este é meu portfólio e está em criação. 
 
  - [x] Wireframe
  - [x] Template (Figma)
@@ -8,5 +13,7 @@
  - [ ] Javascript
  - [ ] Animações
  - [ ] Publicação
+
+
 
 
