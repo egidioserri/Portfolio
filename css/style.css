@@ -15,24 +15,35 @@ body {
 h1 {
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 60px;
     line-height: 93.7%;
     color: #FFFFFF;
 }
 
 p {
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 24px;
     color: #F9FAFB;
+    padding-top: 10px;
 }
 
-main {
+.introIndex {
     position: absolute;
     left: 38vh;
-    top: 29vh;
+    top: 23vh;
 }
 
+.introPages {
+    position: absolute;
+    width: 80%;
+    left: 23vh;
+    top: 15vh;
+}
+
+.oi {
+    width: 60px;
+}
 
 .botaoHome {
     margin-top: 50px;
@@ -40,16 +51,16 @@ main {
 
 .botaoHomeFundo {
     position: absolute;
-    width: 310px;
-    height: 63px;
+    width: 300px;
+    height: 53px;
     border: 2px solid #188AEC;
     border-radius: 8px;
     padding: 13px 58px;
 }
 
 button {
-    width: 300px;
-    height: 63px;
+    width: 290px;
+    height: 53px;
     background: #188AEC;
     border: 0px;
     border-radius: 8px;
@@ -62,48 +73,58 @@ button {
 
 .navegacao {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+
     background: #030b1a;
-    padding: 12px 62px;
     border: 1px solid #1e345d;
     box-shadow: -24px 24px 64px #070b13;
     border-radius: 24px;
     justify-content: space-evenly;
-    align-items: baseline;
+    align-items: center;
 }
 
-.home {
-    display: flex;
-    padding: 24px;
-    width: 104px;
-    height: 104px;
+.ativado {
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+    width: 84px;
+    height: 84px;
     background: #188AEC;
     border-radius: 16px;
-    margin: 0px 10px;
+}
 
-    /*Icone*/
-    color: #FFFFFF;
-    font-size:50px;
+.ativado > i {
+    color: #ffffff;
+    font-size: 45px;
+    align-items: inherit;
+    justify-content: space-around;
+    padding: 23%;
 }
 
 .desativado {
-    display: flex;
-    padding: 14px;
-    width: 80px;
-    height: 80px;
-    background: #1F2937;
-    border-radius: 16px;
-    margin: 0px 10px;
-    justify-content: space-evenly;
-    align-items: baseline;
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 0px;
 
-    /*Icone*/
-    color: #FFFFFF;
-    font-size:40px;
+    width: 60px;
+    height: 60px;
+    background: #111a27;
+    border-radius: 16px;
+}
+
+.desativado i {
+    color: #5d6f8854;
+    font-size: 33px;
+    justify-content: space-around;
+    padding: 23%;
 }
 
 footer {
     position: relative;
-    width: 90vh;
-    left: 60vh;
+    width: 60vh;
     top: 74vh;
+    left: calc(50% - 30vh);
 }
